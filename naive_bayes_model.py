@@ -3,6 +3,9 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn import cross_validation
 
 def main():
+    '''
+    Blah blah blah
+    '''
     training = datas.training
     training = training.drop(['embarked'],axis=1)
     testing  = datas.testing
